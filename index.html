@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathwik Reddy Thummala | Full Stack Engineer & RTA</title>
+    
+    <link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgMjkPzJ3Ew.woff2" as="font" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" crossorigin>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <div id="hero-background" role="presentation"></div>
+
+    <header id="main-header" class="fixed" role="banner">
+        <div class="container">
+            <div class="logo">
+                <span class="icon-3d">★</span> SATHWIK REDDY THUMMALA
+            </div>
+            
+            <nav id="main-nav" role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#hero" aria-label="Go to Home Section" class="interactive-element">Home</a></li>
+                    <li><a href="#about" aria-label="Go to About Section" class="interactive-element">About</a></li>
+                    <li><a href="#projects" aria-label="Go to Projects Section" class="interactive-element">Projects</a></li>
+                    <li><a href="#skills" aria-label="Go to Skills Section" class="interactive-element">Skills</a></li>
+                    <li><a href="#contact" aria-label="Go to Contact Section" class="interactive-element">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a class="btn btn-primary resume-btn interactive-element" href="assests\Sathwik-Reddy-Thummala-Updated Resume.pdf" target="_blank">Resume</a>
+                <div class="hamburger interactive-element" id="hamburger-menu" role="button" aria-controls="main-nav" aria-expanded="false" tabindex="0">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="hero" class="full-viewport-height flex-center" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title" class="animate-fade-up">SATHWIK REDDY THUMMALA</h1>
+                <p class="sub-headline animate-fade-up delay-1">B.TECH ENGINEER & FULL STACK SOLUTIONS DEVELOPER</p>
+                <p class="tagline animate-fade-up delay-2">CRAFTING EFFICIENT SOLUTIONS FOR REAL-TIME OPERATIONS & WFM.</p>
+                <a class="btn btn-secondary animate-fade-up delay-3 interactive-element" href="#projects">VIEW MY PROJECTS</a>
+            </div>
+        </section>
+
+        <section id="about" class="container section-padding" role="region" aria-labelledby="about-heading">
+            <h2 id="about-heading" class="section-title">Career Objective & Education</h2>
+            <div class="about-grid">
+                <div class="profile-col reveal-item">
+                    <img class="profile-pic" src="assests\sathwik-Photoroom.png" alt="Professional portrait of Sathwik Reddy Thummala" loading="lazy">
+                    <div class="education-info">
+                        <h3>B.Tech, Information Technology</h3>
+                        <p>ACE Engineering College, Hyderabad</p>
+                        <p>2021-2025 | **76.2%**</p>
+                    </div>
+                </div>
+                <div class="bio-col reveal-item">
+                    <h3>Aspiring Real-Time Analyst</h3>
+                    <p>My goal is to leverage my analytical, problem-solving, and workforce management skills as a Real-Time Analyst in Hyderabad, ensuring optimal service levels, efficient resource utilization, and timely decision-making that drive business performance and customer satisfaction.</p>
+                    <p>With a foundation in Full Stack Engineering (Java, Spring Boot, MySQL, Python) and an emphasis on data analysis and logic building, I am equipped to handle complex real-time data challenges.</p>
+                    <!--<p>I am keen to apply my technical knowledge alongside my Logistics & Operations experience (Fleet Management, Load Scheduling) to solve critical business problems efficiently.</p>--->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container section-padding" role="region" aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+
+            <div class="filter-bar" role="group" aria-label="Project Filtering Options">
+                <button class="filter-btn active interactive-element" data-filter="all" aria-pressed="true">All</button>
+                <button class="filter-btn interactive-element" data-filter="python" aria-pressed="false">Python/ML</button>
+                <button class="filter-btn interactive-element" data-filter="java" aria-pressed="false">Java/Full Stack</button>
+                <button class="filter-btn interactive-element" data-filter="security" aria-pressed="false">Security</button>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card reveal-item interactive-element" data-category="python" role="article" aria-label="Project: Audio To Sign Language Conversion">
+                    <img src="assests\Generated Image September 30, 2025 - 11_18AM.png" alt="A 3D avatar rendering Indian sign language gestures from audio input." loading="lazy">
+                    <div class="card-content">
+                        <h3>Audio To Sign Language Conversion</h3>
+                        <p>Developed a web-based system converting spoken audio to Indian Sign Language using 3D avatars, aimed at enhancing accessibility.</p>
+                        <p class="tech-stack">**Tech Stack:** Python, 3D Avatar Rendering, Voice Mapping</p>
+                        <ul class="key-metrics" role="list">
+                            <li>Achieved **92% accuracy** in converting spoken words into sign language gestures.</li>
+                            <li>Achieved a **40% reduction in processing latency** by optimizing the rendering pipeline.</li>
+                            <li>Integrated **100+ MP4** sign language videos mapped to corresponding voice commands.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card reveal-item interactive-element" data-category="python security" role="article" aria-label="Project: Advanced ATM Security System">
+                    <img src="assests\Generated Image September 30, 2025 - 11_45AM.png" alt="An ATM interface using both fingerprint and facial recognition scanners." loading="lazy">
+                    <div class="card-content">
+                        <h3>Advanced ATM Security System</h3>
+                        <p>Designed and implemented a dual biometric-secured ATM system, eliminating the need for physical cards.</p>
+                        <p class="tech-stack">**Tech Stack:** Java, OpenCV, MFS100, Facial/Fingerprint Recognition</p>
+                         <ul class="key-metrics" role="list">
+                            <li>Reduced fraud exposure by an estimated **70%**, mitigating the risks of card skimming.</li>
+                            <li>Achieved **90% authentication accuracy** in controlled trials with 15 users.</li>
+                            <li>Integrated **OpenCV and MFS100** fingerprint scanning device for real-time authentication.</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container section-padding" role="region" aria-labelledby="skills-heading">
+            <h2 id="skills-heading" class="section-title">Skills & Capabilities</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category reveal-item">
+                    <h3>Technical Stack</h3>
+                    <div class="skill-group" role="list">
+                        <div class="skill-item" data-level="90" role="listitem" aria-label="Skill: Python, 90% proficiency">
+                            <i class="fab fa-python"></i><p>Python</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="85" role="listitem" aria-label="Skill: Java, 85% proficiency">
+                            <i class="fab fa-java"></i><p>Java</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="80" role="listitem" aria-label="Skill: MySQL, 80% proficiency">
+                            <i class="fas fa-database"></i><p>MySQL</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="70" role="listitem" aria-label="Skill: Spring Boot, 70% proficiency">
+                            <i class="fas fa-server"></i><p>Spring Boot</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="75" role="listitem" aria-label="Skill: Full Stack Engineering, 75% proficiency">
+                            <i class="fas fa-code"></i><p>Full Stack Eng.</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="70" role="listitem" aria-label="Skill: HTML/CSS/JavaScript, 70% proficiency">
+                            <i class="fab fa-js-square"></i><p>JS/CSS/HTML</p>
+                            <div class="skill-bar-container"><div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category reveal-item">
+                    <h3>Analytical & WFM</h3>
+                    <div class="skill-group" role="list">
+                        <div class="skill-item" role="listitem"><i class="fas fa-chart-line"></i><p>Analytical Reasoning</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-table"></i><p>MS Excel/Outlook</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-clock"></i><p>Real-Time Analysis</p></div>
+                        <!--<div class="skill-item" role="listitem"><i class="fas fa-truck"></i><p>Fleet Management</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-calendar-alt"></i><p>Load Scheduling</p></div> --->
+                    </div>
+                </div>
+                
+                <div class="skill-category reveal-item">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-group" role="list">
+                        <div class="skill-item" role="listitem"><i class="fas fa-comments"></i><p>Communication</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-brain"></i><p>Problem-Solving</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-medal"></i><p>Leadership</p></div>
+                        <div class="skill-item" role="listitem"><i class="fas fa-hourglass-half"></i><p>Time Management</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container section-padding" role="region" aria-labelledby="contact-heading">
+            <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <form class="contact-form reveal-item" aria-label="Contact Form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name-input" name="name" placeholder="Your Name" required aria-required="true" aria-describedby="name-error" class="interactive-element">
+                        <span id="name-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email-input" name="email" placeholder="Your Email" required aria-required="true" aria-describedby="email-error" class="interactive-element">
+                        <span id="email-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message-input" name="message" rows="6" placeholder="Your Message" required aria-required="true" aria-describedby="message-error" class="interactive-element"></textarea>
+                        <span id="message-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary interactive-element" aria-live="polite">SEND MESSAGE</button>
+                    <div id="form-feedback" class="form-feedback" role="status" aria-live="assertive"></div>
+                    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+                </form>
+                <div class="contact-info reveal-item">
+                    <h3>Connect with me</h3>
+                    <p>I'm actively seeking roles where I can combine my engineering and analytical skills to optimize business operations. I'm keen to discuss Real-Time Analyst or related developer positions.</p>
+                    <p>Email: **sathwikreddythummala@gmail.com**</p>
+                    <p>Phone: **9392350848**</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/thummala-sathwik-reddy-76330325a" target="_blank" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in interactive-element"></i></a>
+                        <a href="https://github.com/Sathwikreddythummala" target="_blank" aria-label="GitHub profile"><i class="fab fa-github interactive-element"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2024 Sathwik Reddy Thummala. All rights reserved.</p>
+            <a href="#hero" class="back-to-top interactive-element" aria-label="Back to top of the page">Back to Top <i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <a href="#contact" class="fab-contact interactive-element" aria-label="Quick contact form">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <div id="custom-cursor" aria-hidden="true"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
